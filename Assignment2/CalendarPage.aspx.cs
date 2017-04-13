@@ -19,6 +19,7 @@ public partial class CalendarPage : System.Web.UI.Page
         string taxday = "4/15/2017";
         string dayofCannabis = "4/20/2017";
         string earthday = "4/22/2017";
+        string paranormalday = "5/3/2017";
         string beverageday = "5/6/2017";
 
         if (myDate.Equals(aprilfools))
@@ -41,9 +42,14 @@ public partial class CalendarPage : System.Web.UI.Page
             Label1.Text = "Happy earth day!";
             Label2.Text = "It's jelllybean day too!!";
         }
+        else if (myDate.Equals(paranormalday))
+        {
+            Label1.Text = "It's national paranormal day!";
+            Label2.Text = Calendar1.SelectedDate.ToShortDateString();
+        }
         else if (myDate.Equals(beverageday))
         {
-            Label2.Text = "It's national beverage day!";
+            Label1.Text = "It's national beverage day!";
             Label2.Text = Calendar1.SelectedDate.ToShortDateString();
         }
         else
