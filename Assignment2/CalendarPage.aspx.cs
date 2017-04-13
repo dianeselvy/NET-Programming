@@ -9,7 +9,7 @@ public partial class CalendarPage : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        
     }
 
     protected void Calendar1_SelectionChanged(object sender, EventArgs e)
@@ -19,7 +19,6 @@ public partial class CalendarPage : System.Web.UI.Page
         string taxday = "4/15/2017";
         string dayofCannabis = "4/20/2017";
         string earthday = "4/22/2017";
-        string jellybeanDay = "4/22/2017";
         string beverageday = "5/6/2017";
 
         if (myDate.Equals(aprilfools))

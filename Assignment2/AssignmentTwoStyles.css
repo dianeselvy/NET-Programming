@@ -1,12 +1,19 @@
-﻿body {
+﻿h1 {
+    font-size:24px;
+    color: #9999FF;
 }
 
 .result1 {
-    color: #668899;
+    color: #6666EE;
     font-weight: bold;
 }
 
 .result2 {
-    color: #992255;
+    color: #66AAEE;
     font-weight: bold;
 }
+
+/*.Calendar {
+    background-color: #ffffdd;
+    
+}*/
